@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- star navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-light-50 ms-4 opacity-50 fw-bold  " href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-danger fw-bold" aria-current="page" href="#">Landing</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start landing -->
+    <div class="landing" style="background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/85628/images/bg3.jpg);background-size: cover;">
+      <div class="continer overflow-hidden">
+        <div class="row  align-items-center overflow-hidden">
+          <div class="col-md-6 col-lg-6">
+            <div class="text ms-5 mt-3">
+              <h2 class="text-light display-1">Wlecome</h2>
+              <h3 class="text-light display-5">Family & Eduction <br> Center</h3>
+              <h5 class="text-light display-4">Image From FreePick</h5>
+              <div class="d-grid gap-2 col-6 ">
+                <button class="btn btn-light mt-3" type="button">Read More</button>
+              </div>           
+             </div>
+
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="image ">
+              <img src="https://assets.nicepagecdn.com/d2cc3eaa/85628/images/8959842girl-min.png" style="width:95%" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start eduction -->
+    <div class="eduction">
+      <div class="continer text-center mt-5">
+        <h2 class="fw-bold  text-primary  ">Education programs
+        </h2>
+        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        </p>
+      </div>
+      <div class="content">
+        <div class="row m-1">
+          <div class="col-md-6 col-lg-4">
+            <div class="card text-bg-dark mb-3  rounded  " style="max-width: 100%;">
+              <div class="card-header">Lower School
+              </div>
+              
+              <div class="card-body">
+                <h5 class="card-title ms-3">Ages 3-7</h5>
+                <ul>
+                  <li>Second Grade (7/8s)
+                  </li>
+                  <li>Second Grade (7/8s)</li>
+                  <li>PreeSchool (3/4s)</li>
+                  <li>Pre-K (4/5s)</li>
+                  <li>Frist Grade(6/7s)</li>
+
+                </ul>
+              </div>
+            
+            
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-bg-dark mb-3   rounded " style="max-width: 100%;">
+            <div class="card-header">Middle School
+
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title ms-3">Ages 7-10</h5>
+              <ul>
+                <li>Second Grade (7/8s)
+                </li>
+                <li>Third Grade (8/9s)</li>
+                <li>Fourth (9/10s)</li>
+                <li>Pre-Double-K (4/5s)</li>
+                <li>Second Grade(6/7s)</li>
+
+              </ul>
+            </div>
+          </div>
+          
+          
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-bg-dark mb-3  rounded  " style="max-width: 100%;">
+            <div class="card-header">Upper School
+
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title ms-3">Ages 10-14</h5>
+              <ul>
+                <li>Second Grade (10/11s)
+                </li>
+                <li>Third Grade (11/12s)</li>
+                <li>Fourth (13/14s)</li>
+                <li>Pre-Third-K (15/16s)</li>
+                <li>Second Grade(6/7s)</li>
+
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-bg-dark mb-3  rounded  " style="max-width: 100%;">
+            <div class="card-header">Uneversity
+
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title ms-3">Ages 18-25</h5>
+              <ul>
+                <li>Second Grade (13/14s)
+                </li>
+                <li>Third Grade (14/15s)</li>
+                <li>Fourth (16/17s)</li>
+                <li>Pre-Four-K (15/16s)</li>
+                <li>Second Grade(6/7s)</li>
+
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-bg-dark mb-3  rounded  " style="max-width: 100%;">
+            <div class="card-header">Megsster
+
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title ms-3">Ages 30-40</h5>
+              <ul>
+                <li>Second Grade (16/18s)
+                </li>
+                <li>Third Grade (17/18s)</li>
+                <li>Fourth (18/19s)</li>
+                <li>Pre-Doble-K (15/16s)</li>
+                <li>Second Grade(6/7s)</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- end eductino -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start childeren -->
+    <div class="children text-center mt-5">
+      <div class="continer">
+        <h3 class="fw-bold  text-primary">To help children realize their potential
+        </h3>
+        <p class="text-dark">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+
+        </p>
+        <h4></h4>
+
+      </div>
+      <div class="content">
+        <div class="row m-2   align-items-center ">
+          <div class="col-md-6 col-lg-6">
+            <div class="image">
+              <img src="https://assets.nicepagecdn.com/d2cc3eaa/85628/images/good-relations-among-students-ar.jpg" class="img-fluid rounded" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="text text-start">
+              <h1 class="text-dark">Learning Together
+              </h1>
+              <p class="text-dark">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p class="text-dark"><i class="fa-solid fa-circle fa-beat-fade" style="color: #000000;margin-right: 10px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <p class="text-dark"><i class="fa-solid fa-circle fa-beat-fade" style="color: #000000;margin-right: 10px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+              </p>
+              <div class="d-grid gap-2 col-6 ">
+                <button class="btn btn-primary mt-3 mb-3" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="text text-start">
+              <h1 class="text-dark">Our Programs & Services
+
+              </h1>
+              <p class="text-dark">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p class="text-dark"><i class="fa-solid fa-circle fa-beat-fade" style="color: #000000;margin-right: 10px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <p class="text-dark"><i class="fa-solid fa-circle fa-beat-fade" style="color: #000000;margin-right: 10px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+              </p>
+              <div class="d-grid gap-2 col-6 ">
+                <button class="btn btn-primary mt-3" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="image mt-3">
+              <img src="https://assets.nicepagecdn.com/d2cc3eaa/85628/images/girl-with-big-smile-classroom_10.jpg" class="img-fluid rounded" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-12">
+            <div class="image mt-4">
+              <img src="https://assets.nicepagecdn.com/d2cc3eaa/85628/images/happy-children-spend-time-togeth.jpg" class="img-fluid rounded" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6  flex-grow-1">
+            <div class="text text-start  ">
+              <h1 class="text-dark">Join the community
+
+
+              </h1>
+              <p class="text-dark w-100">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p class="text-dark w-100"><i class="fa-solid fa-circle fa-beat-fade" style="color: #000000;margin-right: 10px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p class="text-dark"><i class="fa-solid fa-circle fa-beat-fade" style="color: #000000;margin-right: 10px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+              </p>
+              <div class="d-grid gap-2 col-6 ">
+                <button class="btn btn-primary mt-3" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end children -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start media -->
+    <div class="media  mt-4 p-3" style="background-color: #6e00fd;">
+      <div class="continer">
+        <div class="row  align-items-center ">
+          <div class="col-md-6 col-lg-6 text-center">
+            <h1 class="fw-bold display-6 text-light">Follow us on social media
+            </h1>
+            <h4 class="text-light">Programs, Events & Updates
+
+            </h4>
+
+          </div>
+          <div class="col-md-6 col-lg-6 ">
+            <div class="info text-center">
+              <h3 class="text-warning">#EDUCATION_CENTER
+              </h3>
+              <i class="fa-brands fa-linkedin-in" style="color: #ffa731;font-size: 25px;margin-left:20px;"></i>
+              <i class="fa-brands fa-facebook" style="color: #ffa731;font-size: 25px;margin-left: 20px;"></i>
+              <i class="fa-brands fa-twitter"style="color: #ffa731;font-size: 25px;margin-left:20px;"></i>              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end medai -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start browes -->
+    <div class="browse">
+      <div class="continer  text-center mt-4  ">
+        <h2 class="text-primary">Browse and book hundreds of free online classes
+        </h2>
+      </div>
+      <div class="content">
+        <div class="row m-2">
+          
+          <div class="col-md-6 col-lg-6">
+            <div class="box lh-lg " style="border-left: 5px solid  #6e00fd  ;margin: 0px;">
+              <div class="info mb-5" style="margin-left: 10px;">
+                <h3 class="fw-bold text-primary ms-10">Free Online Math Class
+                </h3>
+                <h5>Ages 6-9 Years</h5>
+                <h5>More</h5>
+              </div>
+              <div class="info mb-5  " style="margin-left: 10px;">
+                <h3 class="fw-bold text-primary">Irobot Eduction
+                </h3>
+                <h5>Ages 6-9 Years</h5>
+                <h5>More</h5>
+              </div>
+              <div class="info mb-5" style="margin-left: 10px;">
+                <h3 class="fw-bold text-primary">Motion Animation
+                </h3>
+                <h5>Ages 5-7 Years</h5>
+                <h5>More</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="box lh-lg " style="border-left: 5px solid  #6e00fd  ;margin: 0px;">
+              <div class="info mb-5" style="margin-left: 10px;">
+                <h3 class="fw-bold text-primary ms-10">English Language
+                </h3>
+                <h5>Ages 4-6 Years</h5>
+                <h5>More</h5>
+              </div>
+              <div class="info mb-5  " style="margin-left: 10px;">
+                <h3 class="fw-bold text-primary">Coding With Mincrent
+                </h3>
+                <h5>Ages 7-9 Years</h5>
+                <h5>More</h5>
+              </div>
+              <div class="info mb-5" style="margin-left: 10px;">
+                <h3 class="fw-bold text-primary">Drawing With Us
+                </h3>
+                <h5>Ages 3-5 Years</h5>
+                <h5>More</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end browse -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start choose -->
+    <div class="choose" style="background-color: #6e00fd;">
+      <div class="continer text-center  mt-3 p-3 ">
+        <h2 class="text-light fw-bold">Why choose us?
+        </h2>
+        <p class="text-light">Join our community of life long learners. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        </p>
+      </div>
+      <div class="content  text-center">
+        <div class="row m-1 p-3">
+          <div class="col-md-6 col-lg-3">
+            <h2 class="fw-bold display-5 " style="color: #ffa731;">875</h2>
+            <h4 class="fw-bold text-light ">STUDENT</h4>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h2 class="fw-bold display-5" style="color: #ffa731;">75</h2>
+            <h4 class="fw-bold text-light">PROGRAMS</h4>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h2 class="fw-bold display-5" style="color: #ffa731;">150</h3>
+            <h4 class="fw-bold text-light">EVENTS</h4>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h2 class="fw-bold display-5" style="color: #ffa731;">27</h2>
+            <h4 class="fw-bold text-light">TEACHER</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end choose -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start contact -->
+    <div class="contact">
+      <div class="continer text-center mt-4">
+        <h1 class="text-dark fw-bold">Contact Us
+        </h1>
+        <p class="text-dark">Join our community of life long learners. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        </p>
+      </div>
+    </div>
+    <div class="d-flex  flex-wrap ">
+      <div class="box p-4  flex-grow-1  p-3  "    style="background-color: #6e00fd;;line-height: 2;" >
+        <i class="fa-solid fa-phone" style="color: white;font-size: 45px;"></i>
+        <h2 class="text-light fw-bold">Call Today</h2>
+        <p class="text-light fw-bold">+1(234) 567-8910</p>
+        <p class="text-light fw-bold">+1(234) 567-8910</p>
+
+      </div>
+      <div class="box p-4  flex-grow-1  p-3  "     style="background-color: #ffa731;;line-height:2" >
+        <i class="fa-solid fa-location-dot" style="color: white;font-size: 45px;margin-top: 20px;"></i>
+        <h2 class="text-light fw-bold">Adress</h2>
+        <p class="text-light fw-bold">Egypt,32</p>
+        <p class="text-light fw-bold">Street Mohamed Abdo Behind Emergency 32</p>
+
+      </div>
+      <!-- <div class="box p-2 flex-grow-1 align-items-center "  style="background-color: #ffa731;;line-height:2">
+        <i class="fa-solid fa-location-dot" style="color: white;font-size: 45px;margin-top: 20px;"></i>
+        <h2 class="text-light fw-bold">Adress</h2>
+        <p class="text-light fw-bold">Egypt,32</p>
+        <p class="text-light fw-bold">Street Mohamed Abdo Behind Emergency 32</p>
+      </div> -->
+      <div class="box bg-danger  p-4  flex-grow-1 ">
+        <i class="fa-solid fa-envelope" style="color: #ffffff;font-size: 35px;line-height: 2;"></i>
+        <h2 class="text-light fw-bold">Email Us</h2>
+        <p class="text-light fw-bold">Info@sample.com</p>
+        <p class="text-light fw-bold">Yahoo.mail@gmail.com</p>
+        <i class="fa-brands fa-linkedin-in fw-bold" style="color: white;font-size: 25px;margin-left:20px;"></i>
+        <i class="fa-brands fa-facebook fw-bold" style="color: white;font-size: 25px;margin-left: 20px;"></i>
+        <i class="fa-brands fa-twitter fw-bold"style="color: white;font-size: 25px;margin-left:20px;"></i>
+      </div>
+      <div class="box bg-success flex-grow-1 p-4" >
+        <i class="fa-solid fa-phone" style="color: white;line-height: 2;font-size: 30px;"></i>
+        <h2 class="text-light fw-bold">Opening Hours</h2>
+        <p class="text-light fw-bold">Mon-Fri 10:00 -23</p>
+        <p class="text-light fw-bold">Sun-Sun 10:0-19:0</p>
+        <p class="text-light fw-bold">Wen-Wen 10:0-19:0</p>
+
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start after contact -->
+    <div class="after-contact">
+      <div class="image">
+        <img src="https://assets.nicepagecdn.com/d2cc3eaa/85628/images/ghghgh-min.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start after -->
+      <div class="after p-4 gap-0" style="background-color: #6e00fd;">
+        <div class="contier gap-0">
+          <div class="row grid gap-0 gap-0">
+            <div class="col-md-6 col-lg-4">
+              <div class="box gap-0">
+                <h3 class="text-light fw-bold">Head-Line</h3>
+                <p class="text-light">Sample text. Click to select the text box. Click</p>
+                <p class="text-light">again or double click to start editing the text.</p>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                <i class="fa-brands fa-facebook-messenger" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box gap-0">
+                <h3 class="text-light fw-bold">Head-Services</h3>
+                <p class="text-light">Sample text. Click to select the text box. Click</p>
+                <p class="text-light">again or double click to start editing the text.</p>
+                <i class="fa-brands fa-snapchat" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                <i class="fa-brands fa-pinterest" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                <i class="fa-brands fa-viber" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="box gap-0">
+                <h3 class="text-light fw-bold">Head-Ranko</h3>
+                <p class="text-light">Sample text. Click to select the text box. Click</p>
+                <p class="text-light">again or double click to start editing the text.</p>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                <i class="fa-brands fa-github" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                <i class="fa-brands fa-soundcloud" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end after -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- start end project -->
+    <div class="end p-3" style="background-color: #222;">
+      <div class="continer   align-items-center   text-center">
+        <p class="fw-bold  text-light ">Website Templates created with Website Builder Software.</p>
+        <p style="font-style: italic; color: white;font-weight: bold;">By <i class="fa-brands fa-r-project" style="color: #ffffff;margin-left: 10px;"></i></p>
+      </div>
+    </div>
+    <!-- end end project -->
+    <!-- ------------------------------------------------------------------------------------- -->
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
